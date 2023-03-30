@@ -12,4 +12,9 @@ Tea is meant for non IDE projects that can be done directly on the windows machi
 ## Technology stack
 
 ## Run Code (Environment)
+- confirm that config is up to date:
+```
+>node -v
+>npm -v
 
+```
