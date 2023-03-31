@@ -3,13 +3,15 @@ Tea is meant for non IDE projects that can be done directly on the windows machi
 
 
 ## Description
-- User based app for Generic Projects
+- Description to be filled in 
 
 ## Demo Youtube Video
 - 
 ## Screen Shots
+- Screen shots here
 
 ## Technology stack
+Node.js, REACT.js, Express.js, etc...
 
 ## Run Code (Environment)
 - confirm that config is up to date:
