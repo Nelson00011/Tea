@@ -43,7 +43,7 @@ Node.js, REACT.js, Express.js, etc...
 - Navigate to localhost:3000 to confirm environment established & confirm the below appears:
 ![REACTsqr](https://user-images.githubusercontent.com/112737682/229308612-826c64ef-dd92-4f78-a450-8531a8a0a542.jpg)
 
-##### Changes to the package.json starts
+#### Changes to the package.json:
 
 - If bootstraps is desired (see resources):
 ```
