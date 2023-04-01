@@ -47,10 +47,19 @@ Node.js, REACT.js, Express.js, etc...
 ```
 > npm install react-bootstrap bootstrap
 ```
-- Establish router on front end: 
+- Establish router on front end (required for NavBar): 
 ```
 > npm install --save react-router-dom
 ```
+-- Required imports for App.js:
+```
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+```
+-- Required imports for NavBar.js:
+```
+import { Link } from 'react-router-dom';
+```
+
 
 
 ### Back-End Helpful Hints (for Node.js environment)
