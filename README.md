@@ -20,8 +20,16 @@ Node.js, REACT.js, Express.js, etc...
 > node -v
 > npm -v
 > git --version
+> npm create-react-app <App Name Here>
 ```
 (for windows ensure git is properly loaded.)
+- confirm that package.json is loaded & package.json is completed (resources):
+```
+> npm init
+```
+
+
+
 
 ### Front-End Helpful Hints (for Node.js environment)
 
@@ -64,3 +72,4 @@ Node.js, REACT.js, Express.js, etc...
 ### Additional Resources:
 - Common Concerns:
 -> For Windows Devices that confirm the following is installed: git, node.js, npm. 
+- (Windows Node Install)[https://www.knowledgehut.com/blog/web-development/installation-of-react-on-windows]
