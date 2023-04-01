@@ -1,5 +1,5 @@
 # Tea Time (Mad Hatter Projects)
-Tea is meant for non IDE projects that can be done directly on the windows machine
+Tea is meant for non IDE projects that can be done directly on the windows machine, focus on REACT applications & projects outside of Ubuntu. 
 
 
 ## Description
@@ -20,12 +20,13 @@ Node.js, REACT.js, Express.js, etc...
 > node -v
 > npm -v
 > git --version
-> npm create-react-app <App Name Here>
 ```
-(for windows ensure git is properly loaded.)
-- confirm that package.json is loaded & package.json is completed (resources):
+
+-  Establish React App
 ```
-> npm init
+> npx create-react-app <App Name Here>
+> cd  <App Name Here>
+> npm start
 ```
 
 
@@ -33,14 +34,24 @@ Node.js, REACT.js, Express.js, etc...
 
 ### Front-End Helpful Hints (for Node.js environment)
 
-- Initial pack.json & install dependencies (port: 3000):
+- Establish react project, move into folder (cd), confirm front-end generated:
 ```
 > npx create-react-app <project name>
-```
-- Test front-end once pages are generated:
-```
+> cd <project name>
 > npm run start
 ```
+- Navigate to localhost:3000 to confirm environment established & confirm the below appears:
+![REACTsqr](https://user-images.githubusercontent.com/112737682/229308612-826c64ef-dd92-4f78-a450-8531a8a0a542.jpg)
+- Do not change the package.json file
+- If bootstraps is desired (see resources):
+```
+> npm install react-bootstrap bootstrap
+```
+- Establish router on front end: 
+```
+> npm install --save react-router-dom
+```
+
 
 ### Back-End Helpful Hints (for Node.js environment)
 
@@ -73,3 +84,4 @@ Node.js, REACT.js, Express.js, etc...
 - Common Concerns:
 -> For Windows Devices that confirm the following is installed: git, node.js, npm. 
 - (Windows Node Install)[https://www.knowledgehut.com/blog/web-development/installation-of-react-on-windows]
+- (BootStraps Documentation)[https://getbootstrap.com/]
