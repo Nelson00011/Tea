@@ -42,7 +42,9 @@ Node.js, REACT.js, Express.js, etc...
 ```
 - Navigate to localhost:3000 to confirm environment established & confirm the below appears:
 ![REACTsqr](https://user-images.githubusercontent.com/112737682/229308612-826c64ef-dd92-4f78-a450-8531a8a0a542.jpg)
-- Do not change the package.json file
+
+#####Changes to the package.json starts
+
 - If bootstraps is desired (see resources):
 ```
 > npm install react-bootstrap bootstrap
@@ -51,15 +53,15 @@ Node.js, REACT.js, Express.js, etc...
 ```
 > npm install --save react-router-dom
 ```
--- Required imports for App.js:
+> Required imports for App.js:
 ```
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 ```
--- Required imports for NavBar.js:
+> Required imports for NavBar.js:
 ```
 import { Link } from 'react-router-dom';
 ```
-
+---- TODO HERE ()
 
 
 ### Back-End Helpful Hints (for Node.js environment)
@@ -90,7 +92,7 @@ import { Link } from 'react-router-dom';
 
 --------------------------------------------------
 ### Additional Resources:
-- Common Concerns:
+- Common Concerns
 -> For Windows Devices that confirm the following is installed: git, node.js, npm. 
-- (Windows Node Install)[https://www.knowledgehut.com/blog/web-development/installation-of-react-on-windows]
-- (BootStraps Documentation)[https://getbootstrap.com/]
+- [Windows Node Install](https://www.knowledgehut.com/blog/web-development/installation-of-react-on-windows)
+- [BootStraps Documentation](https://getbootstrap.com/)

@@ -2,9 +2,47 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3, h4 {
+  margin-bottom: 0;
+}
+
+nav {
+  border-bottom: 4px solid Grey;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 24px 32px;
+}
+
+nav a:hover {
+  background: white;
+  color: black;
+}
+
+.nav-right {
+  position: absolute;
+  top: 8px;
+  right: 8px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
