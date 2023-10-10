@@ -46,46 +46,24 @@
 > npm run start
 ```
 
-### Back-End Helpful Hints (Node.js/Strapi - Optional)
-- Initial package.json & install dependencies:
-    - Must be `cd`'d into backend/server for install
+### Back-End Helpful Hints (Node.js)
+#### Postgres/MongoDB?, Express.js
+- Make Postgres Server & install dependencies (see resources):
 ```
-> npx create-strapi-app@latest <project name>
-> cd <project name>
-> npm install --save stripe
+> mkdir <server name>
+> cd <server name>
+> npm init
+> npm install pg cors express
+> npm install nodemon
 ```
-- Strapi Database generated (ctrl-c to exit):
-```
-> npm run develop
-```
-- **Avoid** *npm run start* and use the `npm run develop`. 
-- Allow server to restart with each edit (see resources): 
-    - **Content-Type Builder**: Item entry
-    - **Media Library**: upload photos
-    - **Permissions**: Settings > Roles > Public 
-- In frontend fetch `item` from backend (*localhost:1337*):
-```
-const grouping = "items"
-const items = await fetch(
-`http://localhost:1337/api/${grouping}`
-)
 ```
 --------------------------
 ### Deployment
 
 ## Resources & Helpful Hints:
-- [Strapi](https://strapi.io/) Backend Applications
-    - Quick Start [here](https://docs.strapi.io/dev-docs/quick-start)
-    - Admin Panel of Strapi `http://localhost:1337/admin`
-    - Video Help found [here](https://www.youtube.com/watch?v=gB8HRpIAE3o)
-    - Rest API [info](https://docs.strapi.io/dev-docs/api/rest)/populate [here](https://docs.strapi.io/dev-docs/api/rest/populate-select) & filter [info](https://docs.strapi.io/dev-docs/api/rest/filters-locale-publication)
-    - MUI form information [here](https://mui.com/material-ui/api/form-control/)
-    - **helpful hint:** returns null if not defined, check image sizes in formats (*avoid thumbnails*) & `?.` help with unknown. `http://localhost:1337/` must be used, http required for strapi. 
-
 - **PostMan** for API Tests [here](https://www.postman.com/)
     - jsonwebtoken / [jwt](https://jwt.io/) for Authentification & install [here](https://www.npmjs.com/package/jsonwebtoken)
     - jwt Debugger [here](https://jwt.io/#debugger-io)
-- [bcrypt.js](https://www.npmjs.com/package/bcryptjs) part of password hasing for user Authentification. 
 
 
 #### **style:** 
