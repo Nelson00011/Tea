@@ -6,6 +6,8 @@
 **Tea Time** is an Ecommerce ***React.js*** app that allows users to explore `insert here`:
 - Client side (*frontend*) utilizes ***React.js*** & ***react-router-dom*** in combination with Material MUI create themes to provide cohesive structure. 
 - Server side (*backend*) uses ***Insert here***
+- Grab your favorite top hat and login to search for good reads and that perfect cup of tea. Either select a cup of tea and a book to go with it or find a side of tea to go with your favoite book? 
+- Store your "Favorite Books" in "Postgres Database"/MongoDB?
 
 ## Screen Shots:
 <p align="center">Please reference the screenshot folder for more available images</p>
@@ -14,7 +16,7 @@
 ## Technology Stack
 - **Frontend/Client:** React.js, MUI, Redux HTML5, CSS
 - **API:** TBD
-- **Backend/Server:** Strapi.js, SQLite, Node.js OR Node.js, Express.js, Postgres.js
+- **Backend/Server:** Node.js, Express.js, Postgres.js
 
 ## Run Code (Environment)
 
@@ -56,14 +58,14 @@
 > npm install pg cors express
 > npm install nodemon
 ```
-```
+
 --------------------------
 ### Deployment
 
-## Resources & Helpful Hints:
+## Resources:
+- API for Tea Types [here](https://boonakitea.cyclic.app/)
+- API for Google Books [here](https://developers.google.com/books/docs/overview)
 - **PostMan** for API Tests [here](https://www.postman.com/)
-    - jsonwebtoken / [jwt](https://jwt.io/) for Authentification & install [here](https://www.npmjs.com/package/jsonwebtoken)
-    - jwt Debugger [here](https://jwt.io/#debugger-io)
 
 
 #### **style:** 
