@@ -3,7 +3,7 @@
 ![itemfromScreenShot]
 
 ## Description:
-**Tea Time** is an Ecommerce ***React.js*** app that allows users to explore `insert here`:
+**Tea Time** is an Tea Drinker, Book Reader, Rain lover & Bohemian Chic ***React.js*** app that allows users to explore `insert here`:
 - Client side (*frontend*) utilizes ***React.js*** & ***react-router-dom*** in combination with Material MUI create themes to provide cohesive structure. 
 - Server side (*backend*) uses ***Insert here***
 - Grab your favorite top hat and login to search for good reads and that perfect cup of tea. Either select a cup of tea and a book to go with it or find a side of tea to go with your favoite book? 
@@ -64,6 +64,8 @@
 
 ## Resources:
 - API for Tea Types [here](https://boonakitea.cyclic.app/)
+- API for Etsy [here](https://www.etsy.com/developers/documentation/getting_started/api_basics) 
+    - 
 - API for Google Books [here](https://developers.google.com/books/docs/overview)
 - **PostMan** for API Tests [here](https://www.postman.com/)
 
@@ -99,6 +101,11 @@
 <!-- 
 ### TODO stx: 
 Future Structure (stx):
+- API:
+    - Tea
+    - BookList or QUOTES
+    - Cozy Furniture
+    - Inspirational Quotes
 
 
 -->
