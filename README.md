@@ -15,7 +15,7 @@
 
 ## Technology Stack
 - **Frontend/Client:** React.js, MUI, Redux HTML5, CSS
-- **API:** TBD
+- **API:** TBD (see references)
 - **Backend/Server:** Node.js, Express.js, Postgres.js
 
 ## Run Code (Environment)
@@ -101,6 +101,7 @@
 <!-- 
 ### TODO stx: 
 Future Structure (stx):
+- Include Font from Google Fonts - Alice in Wonderland Themed - Tea Time is Book Time, how do you choose to mark your chapters? With a pen or with tea stains? 
 - API:
     - Tea
     - BookList or QUOTES
