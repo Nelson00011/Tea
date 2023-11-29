@@ -4,16 +4,19 @@ import classes from './NavBar.module.css';
 
 
 
-function NavBar (){
+function NavBar(){
    
     return (
         <Box className={classes.header}>
         <Link to="/" className={classes.logo}>Tea Time</Link>
-        <div >How Mad Are You?</div>
+        
         <nav>
           <ul>
             <li>
-              <Link to='/about'>About</Link>
+              <Link to='/book'>Books</Link>
+              <Link to='/tea'>Teas</Link>
+              <Link to='/quotes'>Quote</Link>
+          
             </li>
           </ul>
         </nav>

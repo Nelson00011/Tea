@@ -5,6 +5,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/NavBar';
 import HomePage from './pages/Homepage';
 import NotFoundPage from './pages/NotFoundPage';
+import BookPage from './pages/BookPage';
+import TeaPage from './pages/TeaPage';
+import QuotePage from './pages/QuotePage';
 
 
 function App() {
@@ -14,6 +17,10 @@ function App() {
   routes = <Routes>
   <Route path="/" element={<HomePage />} />
   <Route path="/home" element={<HomePage />} />
+  <Route path="/book" element={<BookPage />} />
+  <Route path="/tea" element={<TeaPage />} />
+  <Route path="/quotes" element={<QuotePage />} />
+
   <Route path="*" element={<NotFoundPage/>} />
   </Routes>
 
