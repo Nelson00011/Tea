@@ -103,10 +103,11 @@
 Future Structure (stx):
 - Include Font from Google Fonts - Alice in Wonderland Themed - Tea Time is Book Time, how do you choose to mark your chapters? With a pen or with tea stains? 
 - API:
-    - Tea
-    - BookList or QUOTES
-    - Cozy Furniture
-    - Inspirational Quotes
-
+    - Tea -  Carousel of Tea Images, Fun Fact Modules, Tea Filter by Region link to book? 
+    - BookList - Include best Cozy Book recommendations and filtering settings, Quote selected from book can be listed 
+    - Inspirational Quotes - Design Pinterest element in a Quote page for liking/hearting interested information
+- Design: 
+    - Include Material UI Features
+    - Cohesive Color Themes that are more Black, White, and Blue or Neutral Color (see prior sights - Boho Bags and the Edit Comments)
 
 -->
