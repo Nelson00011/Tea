@@ -1,6 +1,7 @@
 <h1 align="center">Tea Time (Mad Hatter)</h1>
 
-![itemfromScreenShot]
+![itemfromScreenShot]\
+
 
 ## Description:
 **Tea Time** is an Tea Drinker, Book Reader, Rain lover & Bohemian Chic ***React.js*** app that allows users to explore `insert here`:
@@ -101,6 +102,18 @@
 <!-- 
 ### TODO stx: 
 Future Structure (stx):
+- NavBar
+- Main Page 
+-- Carousel with books
+-- Tea Types should be with Descriptions (similar to items to purchased)
+-- Coffee Types for Warm Beverages? 
+-- Picture of Coffee (Stagnant, interactive, or Leads to Book Library)
+
+- Tea
+-- Consider Finding a Coffee Shop Nearby that Matches the book you want to read? 
+
+
+Future Design: 
 - Include Font from Google Fonts - Alice in Wonderland Themed - Tea Time is Book Time, how do you choose to mark your chapters? With a pen or with tea stains? 
 - API:
     - Tea -  Carousel of Tea Images, Fun Fact Modules, Tea Filter by Region link to book? 
@@ -110,4 +123,5 @@ Future Structure (stx):
     - Include Material UI Features
     - Cohesive Color Themes that are more Black, White, and Blue or Neutral Color (see prior sights - Boho Bags and the Edit Comments)
 
+ADD PHOTO FOR STATIC FRONT PAGE FROM GERMAN SITE! 
 -->
