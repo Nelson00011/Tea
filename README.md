@@ -66,7 +66,6 @@
 ## Resources:
 - API for Tea Types [here](https://boonakitea.cyclic.app/)
 - API for Etsy [here](https://www.etsy.com/developers/documentation/getting_started/api_basics) 
-    - 
 - API for Google Books [here](https://developers.google.com/books/docs/overview)
 - **PostMan** for API Tests [here](https://www.postman.com/)
 
