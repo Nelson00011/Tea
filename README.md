@@ -110,6 +110,7 @@ Future Structure (stx):
 
 - Tea
 -- Consider Finding a Coffee Shop Nearby that Matches the book you want to read? 
+-- Consider Google Maps to Favorite, TEA SHOPS where you can READ BOOKS! 
 
 
 Future Design: 
