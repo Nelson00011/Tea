@@ -36,6 +36,6 @@
   .header a:hover,
   .header a:active,
   .header a.active {
-    color: rgba(247, 85, 147, 0.85);
+    color: rgba(53, 56, 58, 0.85);
     text-shadow: rgba(255, 255, 255, 0.5) 1px 1px 1px;
   }

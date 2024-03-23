@@ -1,7 +1,33 @@
 <h1 align="center">Tea Time (Mad Hatter)</h1>
 
-![itemfromScreenShot]\
+![itemfromScreenShot]
 
+## Summary (Continue...[here](https://marketplace.visualstudio.com/items?itemName=Continue.continue))
+- What project did you work on and why?
+    - I decided to work on BookNook application with tea Api that allows for the ability to review NY Times reviewed books and choose your corresponding Tea Time beverage to go along with it. The end objective is very far from the current state. It is intended for the ability to look at NY Times recommended books based on current today's list, in addition this will expand into a books page that will allow a larger list and more details on the books becoming available. The Tea API should pull to provide a list of tea's as well that can be explored further in the tea page, that allows you to eventually pair the tea by the mood or genre of the book you are reading. 
+- What did you do manually (without Continue)?
+    - I did most of the application manually, everytime I tried to get the Continue to do a componenet it gave vague general advice, so maybe it requires more input code to generate additional code on to of that. Some of the resources were comical, or helpful in passing, however they were not lines of code that I could copy and paste in or use? 
+- What did you try to use Continue to do?
+    - I tried to use Continue for multiple components and smaller piece, I even tried having it set up an API call, just to see if it could? 
+- What worked and what didn’t work with Continue?
+    - I may be missing the intended application for the Continue.  It seems like a nice Visual Studio Code add up, however it at times appears to make coding last longer than shorter. Either way I will probably continue to use it in passing for various projects, it was faster than a google search for the information, but not more detailed than the initial AI from google search, lacking the additional web sources. 
+- What problems do you see with Continue?
+    - What input is acceptable or passable. Meaning what is the method for requesting information and getting the desired result. An example is  "New Scrubs" -> result being "Nurse Scrubs" vs "Foot Scrubs" vs "Bath Scrubs for cleaning" are all very different answer, but may lead to the incorrect funneling of results. 
+- What ideas do you have about improving Continue?
+    - Have the ability to link to further results outside visual studio code. Some of the responses did not make the most sense, see below:
+
+Examples of Continue:
+```
+This API call will retrieve a list of books from the server's database. The response will typically include information such as the book title, author, genre, and a brief description. Depending on the API, additional information such as the book's ISBN, publication date, and cover image may also be included. The response will usually be in JSON or XML format and can be used to display the book list in a web or mobile application.
+```
+
+```
+If the item in question is a small electronic device, a possible smaller component to encompass it could be a protective case or sleeve. This component would be designed to fit snugly around the device, providing protection from scratches, dust, and minor impacts. It could be made from a durable material such as silicone or neoprene, and may feature cutouts or openings to allow access to buttons, ports, and other features of the device. The protective case or sleeve would serve as a practical and stylish way to keep the item safe and secure while not in use.
+```
+
+- Issues with API call for NY TIMES running functionally
+
+![image](https://github.com/Nelson00011/Nelson00011/assets/112737682/278fb2e1-b1b5-4fc3-9c43-2b90d0574980)
 
 ## Description:
 **Tea Time** is an Tea Drinker, Book Reader, Rain lover & Bohemian Chic ***React.js*** app that allows users to explore `insert here`:
@@ -65,6 +91,10 @@
 
 ## Resources:
 - API for Tea Types [here](https://boonakitea.cyclic.app/)
+- API for Books NY TIMES [here](https://developer.nytimes.com/apis)
+<!-- oMuH08YkqAXur4DvTNv2reDXeQJVag17 -->
+<!-- SECRET
+qLs3VIOe533f6iVc -->
 - API for Etsy [here](https://www.etsy.com/developers/documentation/getting_started/api_basics) 
 - API for Google Books [here](https://developers.google.com/books/docs/overview)
 - **PostMan** for API Tests [here](https://www.postman.com/)
